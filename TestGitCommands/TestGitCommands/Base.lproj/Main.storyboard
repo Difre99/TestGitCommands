@@ -20,7 +20,23 @@
                                 <rect key="frame" x="20" y="198" width="374" height="664"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VUU-T9-fnQ">
+<<<<<<< HEAD
                                         <rect key="frame" x="67" y="85" width="240" height="300"/>
+=======
+                                        <rect key="frame" x="67" y="85" width="240" height="128"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYD-gU-tor">
+                                                <rect key="frame" x="86" y="48" width="67" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                <connections>
+                                                    <action selector="touchUpInsideButtonRedView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YuY-OP-90W"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+>>>>>>> MarcoDevelop
                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="300" id="Bcc-cc-tnO"/>
@@ -60,7 +76,11 @@
                         </constraints>
                     </view>
                     <connections>
+<<<<<<< HEAD
                         <outlet property="buttonPresent" destination="iL1-sn-ZQe" id="QkW-PA-E5K"/>
+=======
+                        <outlet property="buttonRedView" destination="ZYD-gU-tor" id="cSm-DN-27B"/>
+>>>>>>> MarcoDevelop
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -71,6 +91,9 @@
     <resources>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
