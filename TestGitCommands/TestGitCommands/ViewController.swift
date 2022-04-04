@@ -14,6 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+    }
 
     @IBAction func touchUpInsideButtonRedView(_ sender: Any) {
         let xib = RedViewController(nibName: "RedViewController", bundle: nil)
