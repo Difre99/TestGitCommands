@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD11040727FB388E002B7A0C /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11040527FB388E002B7A0C /* RedViewController.swift */; };
+		BD11040827FB388E002B7A0C /* RedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD11040627FB388E002B7A0C /* RedViewController.xib */; };
 		BD2EAD1E27FB0A2F00568FBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2EAD1D27FB0A2F00568FBB /* AppDelegate.swift */; };
 		BD2EAD2027FB0A2F00568FBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2EAD1F27FB0A2F00568FBB /* SceneDelegate.swift */; };
 		BD2EAD2227FB0A2F00568FBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2EAD2127FB0A2F00568FBB /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD11040527FB388E002B7A0C /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		BD11040627FB388E002B7A0C /* RedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RedViewController.xib; sourceTree = "<group>"; };
 		BD2EAD1A27FB0A2F00568FBB /* TestGitCommands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGitCommands.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2EAD1D27FB0A2F00568FBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD2EAD1F27FB0A2F00568FBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				BD2EAD1F27FB0A2F00568FBB /* SceneDelegate.swift */,
 				BD2EAD2127FB0A2F00568FBB /* ViewController.swift */,
 				BD2EAD2327FB0A2F00568FBB /* Main.storyboard */,
+				BD11040527FB388E002B7A0C /* RedViewController.swift */,
+				BD11040627FB388E002B7A0C /* RedViewController.xib */,
 				BD2EAD2627FB0A3100568FBB /* Assets.xcassets */,
 				BD2EAD2827FB0A3100568FBB /* LaunchScreen.storyboard */,
 				BD2EAD2B27FB0A3100568FBB /* Info.plist */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD11040827FB388E002B7A0C /* RedViewController.xib in Resources */,
 				BD2EAD2A27FB0A3100568FBB /* LaunchScreen.storyboard in Resources */,
 				BD2EAD2727FB0A3100568FBB /* Assets.xcassets in Resources */,
 				BD2EAD2527FB0A2F00568FBB /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD11040727FB388E002B7A0C /* RedViewController.swift in Sources */,
 				BD2EAD2227FB0A2F00568FBB /* ViewController.swift in Sources */,
 				BD2EAD1E27FB0A2F00568FBB /* AppDelegate.swift in Sources */,
 				BD2EAD2027FB0A2F00568FBB /* SceneDelegate.swift in Sources */,
