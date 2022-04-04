@@ -14,9 +14,10 @@ class GreenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.buttonDismiss.titleLabel?.text = "Dismiss"
     }
+    
+
     
     @IBAction func touchUpInsideButtonDismiss(_ sender: Any) {
         self.dismiss(animated: true)
