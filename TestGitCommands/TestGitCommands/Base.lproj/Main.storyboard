@@ -20,8 +20,11 @@
                                 <rect key="frame" x="20" y="198" width="374" height="664"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VUU-T9-fnQ">
-                                        <rect key="frame" x="67" y="85" width="240" height="128"/>
+                                        <rect key="frame" x="67" y="85" width="240" height="300"/>
                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="300" id="Bcc-cc-tnO"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -34,16 +37,31 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="7bS-7f-ngj"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="8Yi-x3-PEU"/>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iL1-sn-ZQe">
+                                <rect key="frame" x="151" y="114" width="112" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Present"/>
+                                <connections>
+                                    <action selector="touchUpInsideButtonPresent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i6c-Ff-2QQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iL1-sn-ZQe" secondAttribute="trailing" constant="151" id="6hx-NO-iVl"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jjX-l5-F9W" secondAttribute="bottom" id="9rJ-vg-zAp"/>
+                            <constraint firstItem="jjX-l5-F9W" firstAttribute="top" secondItem="iL1-sn-ZQe" secondAttribute="bottom" constant="53" id="D5p-91-AzU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jjX-l5-F9W" secondAttribute="trailing" id="cG9-QQ-9qx"/>
+                            <constraint firstItem="iL1-sn-ZQe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="h2v-LI-q3X"/>
                             <constraint firstItem="jjX-l5-F9W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="154" id="hSQ-6O-raj"/>
                             <constraint firstItem="jjX-l5-F9W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jgb-Nf-4UB"/>
+                            <constraint firstItem="iL1-sn-ZQe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="151" id="pmL-bu-APf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buttonPresent" destination="iL1-sn-ZQe" id="QkW-PA-E5K"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
