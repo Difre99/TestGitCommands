@@ -17,7 +17,9 @@ class GreenViewController: UIViewController {
         self.buttonDismiss.titleLabel?.text = "Dismiss"
     }
     
-
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+    }
     
     @IBAction func touchUpInsideButtonDismiss(_ sender: Any) {
         self.dismiss(animated: true)
