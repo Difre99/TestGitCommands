@@ -39,5 +39,7 @@ class ViewController: UIViewController {
         print("hello")
     }
     
+    func aaaa(){}
+    
 }
 
