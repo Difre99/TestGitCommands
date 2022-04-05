@@ -35,11 +35,26 @@
                         <action selector="touchUpInsideDismissButton:" destination="-1" eventType="touchUpInside" id="W7m-Ee-3Ok"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dew-g9-jOU">
+                    <rect key="frame" x="82" y="164" width="250" height="150"/>
+                    <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="eyM-kd-o54"/>
+                        <constraint firstAttribute="width" constant="250" id="zYe-l8-hpJ"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="CherryPick"/>
+                    <connections>
+                        <action selector="touchUpInsideCherryPick:" destination="-1" eventType="touchUpInside" id="Obn-dD-wbL"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemRedColor"/>
             <constraints>
                 <constraint firstItem="W2T-R0-yT2" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="I1p-Ou-u38"/>
+                <constraint firstItem="Dew-g9-jOU" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="120" id="JDv-yH-t3x"/>
+                <constraint firstItem="Dew-g9-jOU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="anr-3O-eYP"/>
                 <constraint firstItem="W2T-R0-yT2" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="nag-hB-YAo"/>
             </constraints>
             <point key="canvasLocation" x="120" y="-14"/>
@@ -57,6 +72,9 @@
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
