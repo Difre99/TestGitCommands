@@ -35,5 +35,9 @@ class ViewController: UIViewController {
         self.present(xib, animated: true)
     }
     
+    func printHello(){
+        print("hello")
+    }
+    
 }
 
