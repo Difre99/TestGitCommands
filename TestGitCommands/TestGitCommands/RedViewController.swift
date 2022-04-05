@@ -14,16 +14,13 @@ class RedViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-    
     @IBAction func touchUpInsideCherryPick(_ sender: Any) {
-        self.tableListQrCodeReader = LeDeviceListView(nibName: "LeDeviceListView", bundle: nil)
-        self.tableListQrCodeReader?.modalTransitionStyle = .coverVertical
-        self.tableListQrCodeReader?.modalPresentationStyle = .fullScreen
-        self.present(self.tableListQrCodeReader!, animated: true)
+        let xib = CherryPickViewController(nibName: "CherryPickViewController", bundle: nil)
+        xib.modalTransitionStyle = .coverVertical
+        xib.modalPresentationStyle = .fullScreen
+        self.present(xib, animated: true)
     }
     
     @IBAction func touchUpInsideDismissButton(_ sender: Any) {
