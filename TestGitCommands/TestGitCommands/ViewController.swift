@@ -45,5 +45,9 @@ class ViewController: UIViewController {
         print("CherryPick")
     }
     
+    func cherryPick1(){
+        print("CherryPick1")
+    }
+    
 }
 
